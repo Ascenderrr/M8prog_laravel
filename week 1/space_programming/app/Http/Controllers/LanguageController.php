@@ -11,16 +11,34 @@ class LanguageController extends Controller
                 'name' => 'NebulaScript',
                 'description' => 'Een event-gedreven taal voor autonome satellieten en ruimtestations, ontworpen voor veilige remote updates en microgravity-coördinatie.',
                 'icon' => 'nebulascript.svg',
+                'features' => [
+                    'Real-time telemetry processing',
+                    'Fault-tolerant event handling',
+                    'Microgravity resource scheduling',
+                    'Secure OTA update protocol',
+                ],
             ],
             (object) [
                 'name' => 'OrbitLang',
                 'description' => 'Een taal voor baanberekeningen en baanoptimalisatie, speciaal gebouwd voor het plannen van lanceringen en het berekenen van gravitationele assist.',
                 'icon' => 'orbitlang.svg',
+                'features' => [
+                    'Gravitational assist calculator',
+                    'Launch window optimizer',
+                    'Delta-v budget analysis',
+                    'Multi-body trajectory simulation',
+                ],
             ],
             (object) [
                 'name' => 'AstroPyxis',
                 'description' => 'Een navigatie-gerichte taal voor het bepalen van sterposities en richtingen in diepe ruimte, gebaseerd op pulsarreferenties.',
                 'icon' => 'astropyxis.svg',
+                'features' => [
+                    'Pulsar-based positioning system',
+                    'Deep space inertial navigation',
+                    'Stellar cartography mapping',
+                    'Interstellar trajectory correction',
+                ],
             ],
         ];
     }

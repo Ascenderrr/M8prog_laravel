@@ -1,6 +1,4 @@
-@extends('layouts.app')
-
-@section('content')
+<x-app>
     <main class="w-full max-w-4xl mx-auto px-6 lg:px-8 pb-12">
         <h1 class="text-2xl font-bold mb-8 uppercase tracking-wide">Mission Contact</h1>
 
@@ -60,4 +58,4 @@
 
         <p class="mt-8 text-sm text-white dark:text-[#A1A09A]">Physical access restricted to cleared personnel. All visitors must register via mission control at least 72 hours before arrival.</p>
     </main>
-@endsection
+</x-app>
